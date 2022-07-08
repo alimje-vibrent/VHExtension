@@ -54,7 +54,7 @@ open class NotificationViewControllerParent: UIViewController, UNNotificationCon
         self.descriptionTextView.dataDetectorTypes = .all
         self.descriptionTextView.isEditable = false
         self.descriptionTextView.isScrollEnabled = false
-        self.descriptionTextView.linkTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor(netHex: 0x007AFF), NSAttributedString.Key.underlineStyle : NSUnderlineStyle.byWord.rawValue]
+        self.descriptionTextView.linkTextAttributes = [NSAttributedString.Key.foregroundColor : UIColorFromRGB(rgbValue: 0x007AFF), NSAttributedString.Key.underlineStyle : NSUnderlineStyle.byWord.rawValue]
         initialSetUp()
     }
     
@@ -89,4 +89,13 @@ open class NotificationViewControllerParent: UIViewController, UNNotificationCon
             self.descriptionTextView.attributedText = NSAttributedString(string: body,attributes: attributes)
         }
     }
+    
+    func UIColorFromRGB(rgbValue: UInt) -> UIColor {
+            return UIColor(
+                red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+                green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+                blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+                alpha: CGFloat(1.0)
+            )
+        }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15AA663D4187E3DACFDDCDE2 /* Pods_VHExtension_VHExtensionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA97A6441FEA84B47D236172 /* Pods_VHExtension_VHExtensionTests.framework */; };
+		2E4C451E2EB4314D1FECAC5D /* Pods_VHExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37C995E677B9221C38C7E10 /* Pods_VHExtension.framework */; };
 		4542599D2877F4A90092F445 /* VHExtension.docc in Sources */ = {isa = PBXBuildFile; fileRef = 4542599C2877F4A90092F445 /* VHExtension.docc */; };
 		454259A32877F4AA0092F445 /* VHExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454259982877F4A90092F445 /* VHExtension.framework */; };
 		454259A82877F4AA0092F445 /* VHExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454259A72877F4AA0092F445 /* VHExtensionTests.swift */; };
@@ -31,6 +33,12 @@
 		454259A22877F4AA0092F445 /* VHExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VHExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		454259A72877F4AA0092F445 /* VHExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHExtensionTests.swift; sourceTree = "<group>"; };
 		454259B22877F5150092F445 /* NotificationViewControllerParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewControllerParent.swift; sourceTree = "<group>"; };
+		74F463998506BE7F2561B88E /* Pods-VHExtension-VHExtensionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VHExtension-VHExtensionTests.debug.xcconfig"; path = "Target Support Files/Pods-VHExtension-VHExtensionTests/Pods-VHExtension-VHExtensionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA97A6441FEA84B47D236172 /* Pods_VHExtension_VHExtensionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VHExtension_VHExtensionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD499929B30AEFBF54D87D13 /* Pods-VHExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VHExtension.debug.xcconfig"; path = "Target Support Files/Pods-VHExtension/Pods-VHExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		D37C995E677B9221C38C7E10 /* Pods_VHExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VHExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D825AADC5B98782952E2497C /* Pods-VHExtension-VHExtensionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VHExtension-VHExtensionTests.release.xcconfig"; path = "Target Support Files/Pods-VHExtension-VHExtensionTests/Pods-VHExtension-VHExtensionTests.release.xcconfig"; sourceTree = "<group>"; };
+		F616AB2A675FB7EF8D879F66 /* Pods-VHExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VHExtension.release.xcconfig"; path = "Target Support Files/Pods-VHExtension/Pods-VHExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4C451E2EB4314D1FECAC5D /* Pods_VHExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				454259A32877F4AA0092F445 /* VHExtension.framework in Frameworks */,
+				15AA663D4187E3DACFDDCDE2 /* Pods_VHExtension_VHExtensionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +68,8 @@
 				4542599A2877F4A90092F445 /* VHExtension */,
 				454259A62877F4AA0092F445 /* VHExtensionTests */,
 				454259992877F4A90092F445 /* Products */,
+				B6996FDA3F290B3BB039A696 /* Pods */,
+				631E395E18B6B5BCA44FF858 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +100,27 @@
 			path = VHExtensionTests;
 			sourceTree = "<group>";
 		};
+		631E395E18B6B5BCA44FF858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D37C995E677B9221C38C7E10 /* Pods_VHExtension.framework */,
+				AA97A6441FEA84B47D236172 /* Pods_VHExtension_VHExtensionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6996FDA3F290B3BB039A696 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD499929B30AEFBF54D87D13 /* Pods-VHExtension.debug.xcconfig */,
+				F616AB2A675FB7EF8D879F66 /* Pods-VHExtension.release.xcconfig */,
+				74F463998506BE7F2561B88E /* Pods-VHExtension-VHExtensionTests.debug.xcconfig */,
+				D825AADC5B98782952E2497C /* Pods-VHExtension-VHExtensionTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -106,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 454259AC2877F4AA0092F445 /* Build configuration list for PBXNativeTarget "VHExtension" */;
 			buildPhases = (
+				D5AD3244CE9699DB8ED53B82 /* [CP] Check Pods Manifest.lock */,
 				454259932877F4A90092F445 /* Headers */,
 				454259942877F4A90092F445 /* Sources */,
 				454259952877F4A90092F445 /* Frameworks */,
@@ -124,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 454259AF2877F4AA0092F445 /* Build configuration list for PBXNativeTarget "VHExtensionTests" */;
 			buildPhases = (
+				767B25BB7DDD9DCC9CB770F3 /* [CP] Check Pods Manifest.lock */,
 				4542599E2877F4AA0092F445 /* Sources */,
 				4542599F2877F4AA0092F445 /* Frameworks */,
 				454259A02877F4AA0092F445 /* Resources */,
+				B83A894AFF26BB826D8AA57B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +227,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		767B25BB7DDD9DCC9CB770F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VHExtension-VHExtensionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83A894AFF26BB826D8AA57B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VHExtension-VHExtensionTests/Pods-VHExtension-VHExtensionTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VHExtension-VHExtensionTests/Pods-VHExtension-VHExtensionTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VHExtension-VHExtensionTests/Pods-VHExtension-VHExtensionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5AD3244CE9699DB8ED53B82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VHExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		454259942877F4A90092F445 /* Sources */ = {
@@ -343,6 +443,7 @@
 		};
 		454259AD2877F4AA0092F445 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD499929B30AEFBF54D87D13 /* Pods-VHExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -371,6 +472,7 @@
 		};
 		454259AE2877F4AA0092F445 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F616AB2A675FB7EF8D879F66 /* Pods-VHExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -399,6 +501,7 @@
 		};
 		454259B02877F4AA0092F445 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F463998506BE7F2561B88E /* Pods-VHExtension-VHExtensionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +519,7 @@
 		};
 		454259B12877F4AA0092F445 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D825AADC5B98782952E2497C /* Pods-VHExtension-VHExtensionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
